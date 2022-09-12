@@ -42,6 +42,14 @@ public class IntroLab {
      */
 
     /**
+     * Call `printLabMessage` on behalf of me (Dexter).
+     */
+    public static String shatfor3() {
+        return printLabMessage("HELLO", "Dexter Gaon-Shatford",
+                true, "Come on, fhqwhgads.");
+    }
+
+    /**
      * An example method that calls on printLabMessage.
      */
     public static String exampleStudent() {
@@ -59,6 +67,8 @@ public class IntroLab {
          * As a reference, we've provided a sample call to exampleStudent
          * above. Afterwards: run this file to see the output!
          */
+
+        System.out.println(shatfor3());
 
 
     }

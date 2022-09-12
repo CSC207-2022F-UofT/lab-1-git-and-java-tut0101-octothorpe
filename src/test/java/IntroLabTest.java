@@ -30,4 +30,12 @@ public class IntroLabTest {
      *       the test results.
      * As a reference, we've included testExampleStudent above.
      */
+
+    @Test(timeout = 0xDEADBEEF)
+    public void testShatfor3() {
+        String expected = "HELLO! My name is Dexter Gaon-Shatford! " +
+                "I like cats more than dogs! Come on, fhqwhgads.";
+        String actual = IntroLab.shatfor3();
+        assertEquals(expected, actual);
+    }
 }
